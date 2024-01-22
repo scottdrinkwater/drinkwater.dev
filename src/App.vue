@@ -9,11 +9,6 @@
             <router-link to="/show-case">Show Case</router-link>
           </nav>
         </div>
-        <h1 class="text-center">
-          <span class="text-green">$cott Drinkwater</span>
-          <span class="text-white">:&nbsp;</span>
-          <span class="text-blue">Software Engineer</span>
-        </h1>
         <router-view />
       </div>
     </div>

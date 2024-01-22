@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
-    <h1>Curriculum Vitae</h1>
-  </div>
+  <Header title="Curriculum Vitae"></Header>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from "@/components/Header.vue";
+</script>
