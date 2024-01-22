@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import CV from "../views/CV.vue";
-import ShowCase from "../views/ShowCase.vue";
+import Portfolio from "../views/Portfolio.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -15,9 +15,9 @@ const routes: Array<RouteRecordRaw> = [
     component: CV,
   },
   {
-    path: "/show-case",
-    name: "ShowCase",
-    component: ShowCase,
+    path: "/portfolio",
+    name: "Portfolio",
+    component: Portfolio,
   },
 ];
 

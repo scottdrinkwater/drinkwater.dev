@@ -6,7 +6,7 @@
           <nav class="text-white px-2">
             <router-link to="/">Home</router-link> |
             <router-link to="/cv">Curriculum Vitae</router-link> |
-            <router-link to="/show-case">Show Case</router-link>
+            <router-link to="/portfolio">Portfolio</router-link>
           </nav>
         </div>
         <router-view />
